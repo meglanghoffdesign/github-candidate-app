@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(32, 44, 136) 0%,
+    rgba(9, 9, 121, 1) 15%,
+    rgba(0, 2, 18, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.candidate-card {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candidate-avatar {
+  width: 400px;
+  height: 400px;
+}
+
+.candidate-avatar-table {
+  width: 80px;
+  height: 80px;
+}
+
+.candidate-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-right: 1rem;
+  margin-left: 14px;
+}
+
+.candidate-details p {
+  margin: 0.2rem 0;
+  text-align: left;
+  width: 100%;
+  margin-left: 14px;
+  max-width: 360px;
+}
+
+.candidate-details h3 {
+  text-align: left;
+  width: 100%;
+  margin-left: 14px;
+}
+
+.github-link {
+  color: #646cff;
+  font-weight: 500;
+}
+
+.github-link:hover {
+  color: #535bf2;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.save-button {
+  background-color: #00a000;
+  color: white;
+}
+
+.skip-button {
+  background-color: #d00000;
+  color: white;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+main {
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+tr {
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #333333;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 32px;
+}
+
+.nav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 0 0.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.table {
+  width: 80vw;
+  table-layout: fixed;
+}
+
+td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal; 
+  padding: 0.5rem;
+}
