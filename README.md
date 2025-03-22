@@ -25,11 +25,16 @@ cd github-candidate-app
 Install dependencies:
 npm install
 
+Run the following:
+npm run build
+
 After that, you can run the project with:
 npm run dev
 
+Alternatively, you can view the full project here: https://github-candidate-app.onrender.com
+
 ## Usage
-When you run the application, you will be able to search for candidates based on Github's API. The application will display a list of potential candidates with relevant details such as their avatar, name, location, email, company, and bio. You can add candidates to your saved list and view them on the potenital candidates page. On this page, candidates' names are clickable and link to their GitHub profiles and you can use the "Remove" button to delete a candidate from your saved list.
+When you run the application, you will be able to search for candidates based on Github's API. The application will display a list of potential candidates with relevant details such as their avatar, name, location, email, company, and bio. You can add candidates to your saved list and view them on the potenital candidates page. On this page, candidates' names are clickable and link to their GitHub profiles and you can use the "Remove" button to delete a candidate from your saved list. 
 
 ## Contributing
 At this time, contributions to this project are not accepted. Please feel free to fork the repository for personal use or modifications. Any pull requests or issues will not be reviewed or merged.
